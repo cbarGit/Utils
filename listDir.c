@@ -100,7 +100,7 @@ int listRec(char *dir_name, int *dr, int *rg, int *sym, int *cr, int *sck, int *
                     fprintf(stderr, "Path too long.\n");
                     exit(EXIT_FAILURE);
                 }
-                /* Recursively call "listRec" in the found directory */
+                /* Recursively call "listRec" in the found directory */
                 listRec(path,dr,rg,sym,cr,sck,bl,unk);
             }
 	    }
